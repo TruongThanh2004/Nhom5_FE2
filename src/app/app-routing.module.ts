@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './componets/home/home.component';
 import { ShopComponent } from './componets/shop/shop.component';
 import { ContactComponent } from './componets/contact/contact.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductDetailComponent } from './componets/product-detail/product-detail.component';
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'shop', component: ShopComponent},
@@ -12,6 +12,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })

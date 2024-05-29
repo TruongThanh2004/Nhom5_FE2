@@ -8,7 +8,7 @@ import { FooterComponent } from './componets/footer/footer.component';
 import { HomeComponent } from './componets/home/home.component';
 import { ShopComponent } from './componets/shop/shop.component';
 import { ContactComponent } from './componets/contact/contact.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductDetailComponent } from './componets/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
