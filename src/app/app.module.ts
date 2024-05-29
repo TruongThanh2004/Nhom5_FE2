@@ -9,6 +9,8 @@ import { HomeComponent } from './componets/home/home.component';
 import { ShopComponent } from './componets/shop/shop.component';
 import { ContactComponent } from './componets/contact/contact.component';
 import { ProductDetailComponent } from './componets/product-detail/product-detail.component';
+import { LoginComponent } from './componets/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { ProductDetailComponent } from './componets/product-detail/product-detai
     HomeComponent,
     ShopComponent,
     ContactComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
